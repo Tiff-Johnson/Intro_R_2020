@@ -27,4 +27,6 @@ lam_site <- laminaria %>%
 laminaria_heavy <- laminaria %>% 
 filter(stipe_mass == max(stipe_mass, na.rm = TRUE))    
                     
-            
+            # Very neat script
+# It is always good to try new tings and its good practice to add comments in each line to describe what each bit of code does
+# Overall mark for day 1: 7/10
