@@ -149,7 +149,7 @@ group_by(Month) %>%
 # creating avg temp per month graph
 ggplot(data = AQ_temp_month, aes(x = Month, y = avg_temp)) + #inputting temp and month data
   geom_col(colour = "purple", fill = "purple") +   # creating bar graph
-theme_classic2() +
+theme_classic() +
 labs(x = "Month (May - September)", y = "Average Temperature")
   
 ## creating line graph displaying wind vs temp grouped by Months  
