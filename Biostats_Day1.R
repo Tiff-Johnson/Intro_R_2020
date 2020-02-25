@@ -125,3 +125,7 @@ plt4 <- chicks %>%
   theme_pubr()
 
 ggarrange(plt1, plt2, plt3, plt4, ncol = 2, nrow = 2, labels = "AUTO")
+
+
+## This is good but for the exams it might b useful to have the plotting code in its own scripts. 
+# This will make it easier and faster to make reference to the code rather than scrolling down etc
